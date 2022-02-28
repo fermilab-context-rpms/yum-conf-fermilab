@@ -1,0 +1,23 @@
+[fermilab-debuginfo]
+name=Fermilab packages for EL$releasever - debuginfo
+baseurl=http://linux-mirrors.fnal.gov/linux/fermilab/centos/$releasever/$basearch/debug
+enabled=0
+gpgcheck=1
+repo_gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fermilab
+
+[fermilab-source]
+name=Fermilab packages for EL$releasever - SRPMS
+baseurl=http://linux-mirrors.fnal.gov/linux/fermilab/centos/$releasever/src/
+enabled=0
+gpgcheck=1
+repo_gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fermilab
+
+[fermilab-testing-source]
+name=Fermilab packages for EL$releasever - $basearch - testing source
+baseurl=http://linux-mirrors.fnal.gov/linux/fermilab/centos/testing/$releasever/src/
+enabled=0
+gpgcheck=1
+repo_gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fermilab
