@@ -1,6 +1,6 @@
 [fermilab]
 name=Fermilab packages for EL$releasever - $basearch
-baseurl=http://linux-mirrors.fnal.gov/linux/fermilab/centos/$releasever/$basearch/
+baseurl=http://linux-mirrors.fnal.gov/linux/fermilab/almalinux/$releasever/$basearch/
 enabled=1
 gpgcheck=1
 repo_gpgcheck=1

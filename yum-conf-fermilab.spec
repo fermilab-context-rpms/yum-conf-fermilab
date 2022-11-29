@@ -1,6 +1,6 @@
 Name:		yum-conf-fermilab
-Version:	1.0
-Release:	2%{dist}
+Version:	1.1
+Release:	1%{dist}
 Summary:	Provide the yum repo files for Fermilab
 
 URL:		https://github.com/fermilab-context-rpms/yum-conf-fermilab
@@ -51,6 +51,9 @@ Just the yum repo GPG key for Fermilab's EL Context.
 
 
 %changelog
+* Tue Nov 29 2022 Pat Riehecky <riehecky@fnal.gov> 1.1-1
+- Use new repo paths
+
 * Mon Feb 28 2022 Pat Riehecky <riehecky@fnal.gov> 1.0-2
 - Use macros more elegantly
 - use repo_gpgcheck=1 by default
