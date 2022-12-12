@@ -12,6 +12,7 @@ BuildRequires:	coreutils
 # packages in the repos might work on fedora
 #  but these repo files wont
 Requires:	base-module(platform:%{expand:%%(echo %{dist} | tr -d '.')})
+Provides:	fermilab-release = %{expand:%%(echo %{dist} | tr -d '.')}
 
 License:	MIT
 
